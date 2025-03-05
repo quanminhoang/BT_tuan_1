@@ -65,7 +65,7 @@ fun TopActionButtons() {
 @Composable
 fun ActionButton(icon: androidx.compose.ui.graphics.vector.ImageVector, contentDescription: String, tint: Color = Color.Unspecified) {
     OutlinedButton(
-        onClick = { /* Handle button click */ },
+        onClick = { },
         shape = RoundedCornerShape(10.dp),
         modifier = Modifier.size(50.dp)
     ) {
